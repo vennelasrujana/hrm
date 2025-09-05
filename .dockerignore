@@ -1,6 +1,7 @@
 # =====================
 # Git
 # =====================
+.git
 .gitignore
 .gitattributes
 
@@ -10,6 +11,7 @@
 /target/
 /build/
 /out/
+/dist/
 
 # =====================
 # Logs
@@ -74,4 +76,3 @@ railway.env.example
 pom.xml.tag
 pom.xml.releaseBackup
 pom.xml.versionsBackup
-build/
