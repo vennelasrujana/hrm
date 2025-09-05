@@ -1,39 +1,77 @@
+# =====================
 # Git
-.git
+# =====================
 .gitignore
 .gitattributes
 
+# =====================
 # Build directories
+# =====================
 /target/
 /build/
+/out/
 
+# =====================
 # Logs
+# =====================
 logs/
 *.log
 
+# =====================
 # IDE files
+# =====================
+# IntelliJ IDEA
 .idea/
-.vscode/
 *.iml
 *.iws
 *.ipr
+
+# Eclipse
 .classpath
 .project
 .settings/
 
-# OS specific
-.DS_Store
-Thumbs.db
+# VS Code
+.vscode/*
+!.vscode/settings.json
 
-# Dependencies that will be fetched during the build
+# =====================
+# OS specific
+# =====================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# =====================
+# Node.js dependencies
+# =====================
 node_modules/
 
+# =====================
 # Temporary files
+# =====================
 *.tmp
 *.swp
 *~
 
-# Development environment
+# =====================
+# Environment files
+# =====================
 .env*
 !.env.example
-railway.env.example 
+railway.env.example
+
+# =====================
+# Maven / Gradle specific
+# =====================
+.mvn/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+build/
